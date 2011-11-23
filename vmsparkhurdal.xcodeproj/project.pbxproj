@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CB9CE1147DAEE400484D99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CB9CE0147DAEE400484D99 /* UIKit.framework */; };
+		95CB9CE3147DAEE400484D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CB9CE2147DAEE400484D99 /* Foundation.framework */; };
+		95CB9CE5147DAEE400484D99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CB9CE4147DAEE400484D99 /* CoreGraphics.framework */; };
+		95CB9CEB147DAEE400484D99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9CE9147DAEE400484D99 /* InfoPlist.strings */; };
+		95CB9CED147DAEE400484D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CB9CEC147DAEE400484D99 /* main.m */; };
+		95CB9CF1147DAEE400484D99 /* sparkvmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CB9CF0147DAEE400484D99 /* sparkvmAppDelegate.m */; };
+		95CB9CF4147DAEE400484D99 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9CF2147DAEE400484D99 /* MainStoryboard.storyboard */; };
+		95CB9CF7147DAEE400484D99 /* sparkvmFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CB9CF6147DAEE400484D99 /* sparkvmFirstViewController.m */; };
+		95CB9CF9147DAEE400484D99 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9CF8147DAEE400484D99 /* first.png */; };
+		95CB9CFB147DAEE400484D99 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9CFA147DAEE400484D99 /* first@2x.png */; };
+		95CB9CFE147DAEE400484D99 /* sparkvmSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CB9CFD147DAEE400484D99 /* sparkvmSecondViewController.m */; };
+		95CB9D00147DAEE400484D99 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9CFF147DAEE400484D99 /* second.png */; };
+		95CB9D02147DAEE400484D99 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CB9D01147DAEE400484D99 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95CB9CDC147DAEE400484D99 /* vmsparkhurdal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vmsparkhurdal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB9CE0147DAEE400484D99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95CB9CE2147DAEE400484D99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95CB9CE4147DAEE400484D99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95CB9CE8147DAEE400484D99 /* vmsparkhurdal-Info.plist */ = {isa = PBXFileReference; path = "vmsparkhurdal-Info.plist"; sourceTree = "<group>"; };
+		95CB9CEA147DAEE400484D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95CB9CEC147DAEE400484D99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95CB9CEE147DAEE400484D99 /* vmsparkhurdal-Prefix.pch */ = {isa = PBXFileReference; path = "vmsparkhurdal-Prefix.pch"; sourceTree = "<group>"; };
+		95CB9CEF147DAEE400484D99 /* sparkvmAppDelegate.h */ = {isa = PBXFileReference; path = sparkvmAppDelegate.h; sourceTree = "<group>"; };
+		95CB9CF0147DAEE400484D99 /* sparkvmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparkvmAppDelegate.m; sourceTree = "<group>"; };
+		95CB9CF3147DAEE400484D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		95CB9CF5147DAEE400484D99 /* sparkvmFirstViewController.h */ = {isa = PBXFileReference; path = sparkvmFirstViewController.h; sourceTree = "<group>"; };
+		95CB9CF6147DAEE400484D99 /* sparkvmFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparkvmFirstViewController.m; sourceTree = "<group>"; };
+		95CB9CF8147DAEE400484D99 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		95CB9CFA147DAEE400484D99 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		95CB9CFC147DAEE400484D99 /* sparkvmSecondViewController.h */ = {isa = PBXFileReference; path = sparkvmSecondViewController.h; sourceTree = "<group>"; };
+		95CB9CFD147DAEE400484D99 /* sparkvmSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparkvmSecondViewController.m; sourceTree = "<group>"; };
+		95CB9CFF147DAEE400484D99 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		95CB9D01147DAEE400484D99 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CB9CD9147DAEE400484D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB9CE1147DAEE400484D99 /* UIKit.framework in Frameworks */,
+				95CB9CE3147DAEE400484D99 /* Foundation.framework in Frameworks */,
+				95CB9CE5147DAEE400484D99 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CB9CD1147DAEE400484D99 = {
+			isa = PBXGroup;
+			children = (
+				95CB9CE6147DAEE400484D99 /* vmsparkhurdal */,
+				95CB9CDF147DAEE400484D99 /* Frameworks */,
+				95CB9CDD147DAEE400484D99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CB9CDD147DAEE400484D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CB9CDC147DAEE400484D99 /* vmsparkhurdal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CB9CDF147DAEE400484D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CB9CE0147DAEE400484D99 /* UIKit.framework */,
+				95CB9CE2147DAEE400484D99 /* Foundation.framework */,
+				95CB9CE4147DAEE400484D99 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CB9CE6147DAEE400484D99 /* vmsparkhurdal */ = {
+			isa = PBXGroup;
+			children = (
+				95CB9CEF147DAEE400484D99 /* sparkvmAppDelegate.h */,
+				95CB9CF0147DAEE400484D99 /* sparkvmAppDelegate.m */,
+				95CB9CF2147DAEE400484D99 /* MainStoryboard.storyboard */,
+				95CB9CF5147DAEE400484D99 /* sparkvmFirstViewController.h */,
+				95CB9CF6147DAEE400484D99 /* sparkvmFirstViewController.m */,
+				95CB9CF8147DAEE400484D99 /* first.png */,
+				95CB9CFA147DAEE400484D99 /* first@2x.png */,
+				95CB9CFC147DAEE400484D99 /* sparkvmSecondViewController.h */,
+				95CB9CFD147DAEE400484D99 /* sparkvmSecondViewController.m */,
+				95CB9CFF147DAEE400484D99 /* second.png */,
+				95CB9D01147DAEE400484D99 /* second@2x.png */,
+				95CB9CE7147DAEE400484D99 /* Supporting Files */,
+			);
+			path = vmsparkhurdal;
+			sourceTree = "<group>";
+		};
+		95CB9CE7147DAEE400484D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CB9CE8147DAEE400484D99 /* vmsparkhurdal-Info.plist */,
+				95CB9CE9147DAEE400484D99 /* InfoPlist.strings */,
+				95CB9CEC147DAEE400484D99 /* main.m */,
+				95CB9CEE147DAEE400484D99 /* vmsparkhurdal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CB9CDB147DAEE400484D99 /* vmsparkhurdal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB9D05147DAEE400484D99 /* Build configuration list for PBXNativeTarget "vmsparkhurdal" */;
+			buildPhases = (
+				95CB9CD8147DAEE400484D99 /* Sources */,
+				95CB9CD9147DAEE400484D99 /* Frameworks */,
+				95CB9CDA147DAEE400484D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vmsparkhurdal;
+			productName = vmsparkhurdal;
+			productReference = 95CB9CDC147DAEE400484D99 /* vmsparkhurdal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CB9CD3147DAEE400484D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kokong AS";
+			};
+			buildConfigurationList = 95CB9CD6147DAEE400484D99 /* Build configuration list for PBXProject "vmsparkhurdal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95CB9CD1147DAEE400484D99;
+			productRefGroup = 95CB9CDD147DAEE400484D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CB9CDB147DAEE400484D99 /* vmsparkhurdal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CB9CDA147DAEE400484D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB9CEB147DAEE400484D99 /* InfoPlist.strings in Resources */,
+				95CB9CF4147DAEE400484D99 /* MainStoryboard.storyboard in Resources */,
+				95CB9CF9147DAEE400484D99 /* first.png in Resources */,
+				95CB9CFB147DAEE400484D99 /* first@2x.png in Resources */,
+				95CB9D00147DAEE400484D99 /* second.png in Resources */,
+				95CB9D02147DAEE400484D99 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CB9CD8147DAEE400484D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB9CED147DAEE400484D99 /* main.m in Sources */,
+				95CB9CF1147DAEE400484D99 /* sparkvmAppDelegate.m in Sources */,
+				95CB9CF7147DAEE400484D99 /* sparkvmFirstViewController.m in Sources */,
+				95CB9CFE147DAEE400484D99 /* sparkvmSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95CB9CE9147DAEE400484D99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CB9CEA147DAEE400484D99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95CB9CF2147DAEE400484D99 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CB9CF3147DAEE400484D99 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CB9D03147DAEE400484D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95CB9D04147DAEE400484D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CB9D06147DAEE400484D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmsparkhurdal/vmsparkhurdal-Prefix.pch";
+				INFOPLIST_FILE = "vmsparkhurdal/vmsparkhurdal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95CB9D07147DAEE400484D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vmsparkhurdal/vmsparkhurdal-Prefix.pch";
+				INFOPLIST_FILE = "vmsparkhurdal/vmsparkhurdal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CB9CD6147DAEE400484D99 /* Build configuration list for PBXProject "vmsparkhurdal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB9D03147DAEE400484D99 /* Debug */,
+				95CB9D04147DAEE400484D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB9D05147DAEE400484D99 /* Build configuration list for PBXNativeTarget "vmsparkhurdal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB9D06147DAEE400484D99 /* Debug */,
+				95CB9D07147DAEE400484D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CB9CD3147DAEE400484D99 /* Project object */;
+}
