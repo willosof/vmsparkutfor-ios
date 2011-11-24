@@ -32,7 +32,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="653" y="-138"/>
+            <point key="canvasLocation" x="561" y="-528"/>
         </scene>
         <scene sceneID="EqK-9H-mZY">
             <objects>
@@ -53,29 +53,13 @@
                                 <rect key="frame" x="0.0" y="44" width="320" height="367"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fGX-gi-Z9L">
-                                <rect key="frame" x="0.0" y="44" width="320" height="367"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="D5W-cj-Rbh">
-                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Program" image="icon_time.png" id="C39-DU-PV9"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1020" y="231"/>
+            <point key="canvasLocation" x="936" y="-116"/>
         </scene>
         <scene sceneID="13">
             <objects>
@@ -118,7 +102,7 @@
                     <tabBarItem key="tabBarItem" title="Nyheter" image="icon_post.png" id="6"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="653" y="498"/>
+            <point key="canvasLocation" x="561" y="243"/>
         </scene>
         <scene sceneID="15">
             <objects>
@@ -139,7 +123,7 @@
                     </connections>
                 </tabBarController>
             </objects>
-            <point key="canvasLocation" x="22" y="-116"/>
+            <point key="canvasLocation" x="21" y="-116"/>
         </scene>
     </scenes>
     <resources>
